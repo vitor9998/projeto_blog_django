@@ -164,3 +164,11 @@ except:
 
 django_heroku.settings(locals())
 
+AWS_ACCESS_KEY_ID = 'AKIA3ZQLXF7NPDP45DQY'
+AWS_SECRET_ACCESS_KEY =  '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'
+AWS_STORAGE_BUCKET_NAME = 'projetos-django'
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
