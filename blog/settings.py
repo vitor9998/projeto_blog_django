@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -159,4 +160,7 @@ try:
     from .local_settings import *
 except:
     pass
+
+
+django_heroku.settings(locals())
 
