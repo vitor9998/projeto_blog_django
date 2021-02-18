@@ -1,0 +1,3 @@
+<!-- title é para deixar a primeira letra maiúscula-->
+{% extends 'posts/index.html' %}
+{% block titulo %}{{ request.GET.termo|title }}  | Pesquisa | {% endblock %}
