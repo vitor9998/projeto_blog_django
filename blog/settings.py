@@ -28,7 +28,7 @@ SECRET_KEY = '96tgii6r6gp9q01_ams%aet7&a5!lq)!yja0rql@9n2cf7%7z^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://blog-do-vitor-oikawa.herokuapp.com/']
 
 
 # Application definition

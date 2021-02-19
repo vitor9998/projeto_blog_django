@@ -6,6 +6,7 @@ Django==3.1.6
 django-heroku==0.3.1
 django-storages==1.11.1
 django-summernote==0.8.11.6
+gunicorn==20.0.4
 jmespath==0.10.0
 mysqlclient==2.0.3
 Pillow==8.1.0
