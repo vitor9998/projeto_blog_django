@@ -16,7 +16,7 @@ class PostIndex(ListView):
 
     def get_queryset(self):
         qs = super().get_queryset()
-        qs = qs.select_related('categoria_post')
+        qs = qs.select_related('categoria_post') #campo relacionado que eu quero que ele selecione.
         qs = qs.order_by('-id').filter(
             publicado_post=True)  # sem esse filter, desmarcando no admim para não ser publicado, ele continua aparecendo.
         qs = qs.annotate(
