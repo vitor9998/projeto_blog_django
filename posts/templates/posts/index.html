@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load humanize %} <!-- load humanize eu configurei no settings.py em installed app, para colocar a data certa que o blog foi publicado. -->
+{% load vofilters %}
 
 {% block conteudo %}
 <!-- CONTENT -->
@@ -27,7 +28,7 @@
                             <small class="text-muted">
                                 {{ post.data_post|naturalday|title }}
                                 |
-                                {{ post.numero_comentarios }} comentário(s)
+                                {{ post.numero_comentarios|plural_comentarios }}
                                 |
                                 {{ post.categoria_post }}</small>
                         </p>
