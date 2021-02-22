@@ -19,3 +19,8 @@ def plural_comentarios(num_comentarios):
         return f'{num_comentarios} comentários(s)'
 
 
+
+
+
+
+
