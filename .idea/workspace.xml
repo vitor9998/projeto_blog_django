@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8641fb-7c19-4590-9806-02d0fa98cca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/post_img/2021/02/08/chip_circuit_processor_140251_1280x720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/post_img/2021/02/09/post_breaking.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/post_img/2021/02/09/post_python.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/post_img/2021/02/09/post_radical.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/post_img/2021/02/09/post_vacina.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/migrations/0003_auto_20210223_1131.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_img/&amp;Y/02/08/chip_circuit_processor_140251_1280x720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_img/&amp;Y/02/09/post_breaking.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_img/&amp;Y/02/09/post_python.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_img/&amp;Y/02/09/post_radical.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/post_img/&amp;Y/02/09/post_vacina.jfif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
